@@ -3,9 +3,12 @@
 /*	Basic Style 
 /* =================================== */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+ */
 body {
+    /* background-color: #EAEEE2; */
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     line-height: 21px;
 	font-size: 13px;
     color: #6a737b;
@@ -95,6 +98,7 @@ body > section,
 
 .devider {
   margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .devider i {

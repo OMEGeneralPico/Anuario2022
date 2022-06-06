@@ -7,3 +7,17 @@
     color:#0eb493;
     text-transform: uppercase;
 }
+#facts2 {
+	background-image: url("../img/parallax/municipio.jpg");
+	background-color: rgba(6,32,51,.8);
+	background-attachment: fixed !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0;
+}
+
+#texto{
+    text-align: justify; 
+    color:white;
+}
