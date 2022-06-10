@@ -16,7 +16,11 @@
 	background-size: cover;
 	padding: 0;
 }
-
+#third{
+  color:#0eb493;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 #texto{
     text-align: justify; 
     color:white;

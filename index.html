@@ -34,6 +34,7 @@
 		<!-- media-queries -->
         <link rel="stylesheet" href="css/media-queries.css">
 		<link rel="stylesheet" href="css/style.css">	
+		<link rel="stylesheet" href="css/bootstrap-side-modals.css">
 		<!-- Modernizer Script for old Browsers -->
         <script src="js/modernizr-2.6.2.min.js"></script>
 
@@ -283,10 +284,12 @@
 								<i class="fa fa-users fa-2x"></i>
 							</div>							
 							<div class="service-desc">
-								<h3>Programas de desarrollo social</h3>
-								<p>En la secretaría de Desarrollo Social durante el primer semestre de 2021 se entregaron alrededor de 18.000 módulos alimentarios que incrementaron la cantidad y calidad de sus productos teniendo como horizonte una alimentación equilibrada y saludable.</p>
-								<p>Además, se realizaron 1021 gestiones de ayudas económicas evaluadas por la trabajadora social correspondiente, ascendiendo el monto de subsidios a $4.381.203, comprendiendo tres categorías: alquiler, hogar y enfermedad.
-								</p>
+								<a href=""data-toggle="modal" data-target="#social_modal">
+									<h3>Programas de desarrollo social</h3>
+								</a>								
+								<p>Durante el primer semestre de 2021 se entregaron alrededor de 18.000 módulos alimentarios que incrementaron la cantidad y calidad de sus productos teniendo como horizonte una alimentación equilibrada y saludable.</p>
+								<p>Además, se realizaron 1021 gestiones de ayudas económicas evaluadas por la trabajadora social correspondiente, ascendiendo el monto de subsidios a $4.381.203, comprendiendo tres categorías: alquiler, hogar y enfermedad.</p>
+								<p style="padding-top: 1em;">Se realizaron 139 entrevistas de solicitud de microcréditos, mientras que las visitas de evaluación para microcréditos fueron 63. Además, se realizaron 22 visitas de seguimiento a razón de los microcréditos otorgados</p>
 							</div>
 						</div>
 					</div>
@@ -299,8 +302,12 @@
 								<i class="fa fa-child fa-2x"></i>
 							</div>							
 							<div class="service-desc">
-								<h3>Desarrollo Infantil</h3>
+								<a href=""data-toggle="modal" data-target="#desarrollo_modal">
+									<h3>Desarrollo Infantil</h3>
+								</a>								
 								<p>A partir del mes de Marzo comenzó la actividad presencial en los Centros de Desarrollo Infantil, recibiendo progresivamente y bajo estricto protocolo a 165 niñas y niños de 2 y 3 años de edad.Se realizó la compra de pintura, juegos de patio, mobiliario, materiales didácticos por un monto de $1.000.000.</p>
+								<p style="padding-top: 1em;">Para el Programa PROVIDA Se contrataron a más de 40 personas entre directores de centro, profesores, ayudantes y personal de limpieza. Hubo una inscripción total de 800 niños y niñas en PROVIDA 2021, (colonia de vacaciones, con modalidad talleres deportivos recreativos).
+								</p>
 							</div>
 						</div>
 					</div>
@@ -313,7 +320,9 @@
 								<i class="fa fa-laptop fa-2x"></i>
 							</div>							
 							<div class="service-desc">
-								<h3>Area tecnologica</h3>
+								<a href=""data-toggle="modal" data-target="#area_modal">
+									<h3>Area tecnologica</h3>
+								</a>
 								<p  style="padding-bottom: 1em;">Se realizaron las siguientes tareas:</p>
 								<li>Reacondicionamiento, reestructura, ampliación y/o armado de red</li>
 								<li>Reparación / reconexión telefonía</li>
@@ -321,104 +330,92 @@
 								<li>Reconexión o Instalación y configuración de Cámaras de seguridad</li>
 								<li>Instalación y/o actualización y configuración de software, según requerimientos</li>
 							</div>
-						</div>
-					</div>
+						</div>						
+					</div>					
 					<!-- end service item -->						
-				</div>
+				</div>				
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
-						<ul class="text-center">
-							<li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
-							<li><a href="javascript:;" data-filter=".branding" class="filter">Branding</a></li>
-							<li><a href="javascript:;" data-filter=".web" class="filter">web</a></li>
-							<li><a href="javascript:;" data-filter=".logo-design" class="filter">logo design</a></li>
-							<li><a href="javascript:;" data-filter=".photography" class="filter">photography</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			
-			<div class="project-wrapper">
-			
-				<figure class="mix work-item branding">
-					<img src="img/works/item-1.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item web">
-					<img src="img/works/item-2.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item logo-design">
-					<img src="img/works/item-3.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item photography">
-					<img src="img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-			
-				<figure class="mix work-item branding">
-					<img src="img/works/item-5.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-5.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item web">
-					<img src="img/works/item-6.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-6.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item logo-design">
-					<img src="img/works/item-7.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-7.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item photography">
-					<img src="img/works/item-8.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-8.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-			</div>
-		
-
 		</section>
-		
+		<!-- aca van las imagenes -->
+		<section class="works clearfix">
+			<div class="work-filter wo fadeInRight animated" data-wow-duration="500ms">
+				<ul class="text-center">
+					<!-- <li><a href="javascript:;" data-filter="all" class="active filter">Todas las areas</a></li>
+					<li><a href="javascript:;" data-filter=".branding" class="filter">Coordinación</a></li>
+					<li><a href="javascript:;" data-filter=".web" class="filter">Planificación</a></li>
+					<li><a href="javascript:;" data-filter=".logo-design" class="filter">Desarrollo</a></li>
+					<li><a href="javascript:;" data-filter=".photography" class="filter">ambiente y servicios públicos</a></li> -->
+				</ul>
+			</div>
+			<div class="project-wrapper">				
+				<figure class="mix work-item branding">
+					<img src="img/works/sociedad/01min.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Acto de entrega de reconocimientos a recolectores de residuos patológicos" href="img/works/sociedad/01.jpg"><i class="fa fa-eye fa-lg"></i></a>
+					<!-- 	<h4>Labore et dolore magnam</h4>
+						<p>Photography</p> -->
+					</figcaption>
+				</figure>						
+				<figure class="mix work-item web">
+					<img src="img/works/sociedad/02min.jpg" alt="" >
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title=" programa “Compro en Pico” y “Vidrieras en Red” para promover el desarrollo comercial durante las fiestas navideñas" href="img/works/sociedad/02.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<!-- <h4>Labore et dolore magnam</h4>
+						<p>Photography</p> -->
+					</figcaption>
+				</figure>						
+				<figure class="mix work-item logo-design">
+					<img src="img/works/sociedad/03min.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Entrega de creditos de economia social" href="img/works/sociedad/03.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<!-- <h4>Labore et dolore magnam</h4>
+						<p>Photography</p> -->
+					</figcaption>
+				</figure>						
+				<figure class="mix work-item photography">
+					<img src="img/works/sociedad/04min.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Acto entrega de microcreditos" href="img/works/sociedad/04.jpg"><i class="fa fa-eye fa-lg"></i></a>
+					<!-- 	<h4>Labore et dolore magnam</h4>
+						<p>Photography</p> -->
+					</figcaption>
+				</figure>					
+				<figure class="mix work-item branding">
+					<img src="img/works/sociedad/05min.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Entrega de subsidios a artesanos para la compra de insumos para su producción" href="img/works/sociedad/05.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<!-- <h4>Labore et dolore magnam</h4>
+						<p>Photography</p> -->
+					</figcaption>
+				</figure>
+				
+				<figure class="mix work-item web">
+					<img src="img/works/sociedad/06min.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Programa de Oficios Tecnológicos en conjuncion con la Facultad de Ingeniería" href="img/works/sociedad/06.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<!-- <h4>Labore et dolore magnam</h4>
+						<p>Photography</p> -->
+					</figcaption>
+				</figure>
+				
+				<figure class="mix work-item logo-design">
+					<img src="img/works/sociedad/07min.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Festival por el dia mundial del medioambiente" href="img/works/sociedad/07.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<!-- <h4>Labore et dolore magnam</h4>
+						<p>Photography</p> -->
+					</figcaption>
+				</figure>						
+				<figure class="mix work-item photography">
+					<img src="img/works/sociedad/08min.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Inauguracion primer feria provincial del libro infantil y juvenil" href="img/works/sociedad/08.jpeg"><i class="fa fa-eye fa-lg"></i></a>
+						<!-- <h4>Labore et dolore magnam</h4>
+						<p>Photography</p> -->
+					</figcaption>
+				</figure>							
+			</div>
+		</section>
         <!--
         End Our Sociedad
         ==================================== -->
@@ -719,7 +716,7 @@
 				</div>				
 			</div>			
 		</section>
-				<!-- Some fun facts ==================================== -->		
+				
 		
 		<section id="facts" class="facts">
 			<div class="parallax-overlay">
@@ -828,10 +825,7 @@
 				</div>
 			</div>
 		</section>
-		
-        <!--
-        End Some fun facts
-        ==================================== -->
+	
 			     <!--
         Interes
         ==================================== -->
@@ -863,8 +857,7 @@
 						<div class="service-item">
 							<div class="service-icon">
 								<i class="fa fa-pencil fa-2x"></i>
-							</div>
-							
+							</div>							
 							<div class="service-desc">
 								<h3>Secretaria de ambiente y servicios públicos </h3>
 								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
@@ -888,116 +881,107 @@
 					<!-- end service item -->
 					<!-- service item -->
 					<div class="col-md-3 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
-							<div class="service-item">
-								<div class="service-icon">
-									<i class="fa fa-bullhorn fa-2x"></i>
-								</div>							
-								<div class="service-desc">									
-										<h3>Desarrollo Social</h3>																	
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-								</div>
+						<div class="service-item">
+							<div class="service-icon">
+								<i class="fa fa-bullhorn fa-2x"></i>
+							</div>							
+							<div class="service-desc">									
+								<h3>Desarrollo Social</h3>																	
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
 							</div>
+						</div>
 					</div>
 					<!-- end service item -->						
 				</div>				
 			</div>
-			<section class="works clearfix" style="padding-top: 4em;">
-				<div class="work-filter wo fadeInRight animated" data-wow-duration="500ms">
-					<ul class="text-center">
-						<li><a href="javascript:;" data-filter="all" class="active filter">Todas las areas</a></li>
-						<li><a href="javascript:;" data-filter=".branding" class="filter">Coordinación</a></li>
-						<li><a href="javascript:;" data-filter=".web" class="filter">Planificación</a></li>
-						<li><a href="javascript:;" data-filter=".logo-design" class="filter">Desarrollo</a></li>
-						<li><a href="javascript:;" data-filter=".photography" class="filter">ambiente y servicios públicos</a></li>
-					</ul>
-				</div>
-				<div class="project-wrapper">				
-					<figure class="mix work-item branding">
-						<img src="img/works/item-1.jpg" alt="">
-						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Labore et dolore magnam</h4>
-							<p>Photography</p>
-						</figcaption>
-					</figure>
-					
-					<figure class="mix work-item web">
-						<img src="img/works/item-2.jpg" alt="">
-						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Labore et dolore magnam</h4>
-							<p>Photography</p>
-						</figcaption>
-					</figure>
-					
-					<figure class="mix work-item logo-design">
-						<img src="img/works/item-3.jpg" alt="">
-						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Labore et dolore magnam</h4>
-							<p>Photography</p>
-						</figcaption>
-					</figure>
-					
-					<figure class="mix work-item photography">
-						<img src="img/works/ambiente1.jpg" alt="">
-						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/ambiente11.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Labore et dolore magnam</h4>
-							<p>Photography</p>
-						</figcaption>
-					</figure>
-				
-					<figure class="mix work-item branding">
-						<img src="img/works/item-5.jpg" alt="">
-						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-5.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Labore et dolore magnam</h4>
-							<p>Photography</p>
-						</figcaption>
-					</figure>
-					
-					<figure class="mix work-item web">
-						<img src="img/works/item-6.jpg" alt="">
-						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-6.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Labore et dolore magnam</h4>
-							<p>Photography</p>
-						</figcaption>
-					</figure>
-					
-					<figure class="mix work-item logo-design">
-						<img src="img/works/item-7.jpg" alt="">
-						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-7.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Labore et dolore magnam</h4>
-							<p>Photography</p>
-						</figcaption>
-					</figure>
-					
-					<figure class="mix work-item photography">
-						<img src="img/works/ambiente2.jpg" alt="">
-						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/ambiente22.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Labore et dolore magnam</h4>
-							<p>Photography</p>
-						</figcaption>
-					</figure>							
-				</div>
-			</section>
-					
+			
 		</section>
-		
-        <!--
-        End Features
-        ==================================== -->
-      
-        
-        <!--
-        End Meet Our Team
-        ==================================== -->
-
-		
+		<!-- <section class="works clearfix" style="padding-top: 4em;">
+			<div class="work-filter wo fadeInRight animated" data-wow-duration="500ms">
+				<ul class="text-center">
+					<li><a href="javascript:;" data-filter="all" class="active filter">Todas las areas</a></li>
+					<li><a href="javascript:;" data-filter=".branding" class="filter">Coordinación</a></li>
+					<li><a href="javascript:;" data-filter=".web" class="filter">Planificación</a></li>
+					<li><a href="javascript:;" data-filter=".logo-design" class="filter">Desarrollo</a></li>
+					<li><a href="javascript:;" data-filter=".photography" class="filter">ambiente y servicios públicos</a></li>
+				</ul>
+			</div>
+			<div class="project-wrapper">				
+				<figure class="mix work-item branding">
+					<img src="img/works/item-1.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<h4>Labore et dolore magnam</h4>
+						<p>Photography</p>
+					</figcaption>
+				</figure>
+				
+				<figure class="mix work-item web">
+					<img src="img/works/item-2.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<h4>Labore et dolore magnam</h4>
+						<p>Photography</p>
+					</figcaption>
+				</figure>
+				
+				<figure class="mix work-item logo-design">
+					<img src="img/works/item-3.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<h4>Labore et dolore magnam</h4>
+						<p>Photography</p>
+					</figcaption>
+				</figure>
+				
+				<figure class="mix work-item photography">
+					<img src="img/works/ambiente1.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/ambiente11.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<h4>Labore et dolore magnam</h4>
+						<p>Photography</p>
+					</figcaption>
+				</figure>
+			
+				<figure class="mix work-item branding">
+					<img src="img/works/item-5.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-5.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<h4>Labore et dolore magnam</h4>
+						<p>Photography</p>
+					</figcaption>
+				</figure>
+				
+				<figure class="mix work-item web">
+					<img src="img/works/item-6.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-6.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<h4>Labore et dolore magnam</h4>
+						<p>Photography</p>
+					</figcaption>
+				</figure>
+				
+				<figure class="mix work-item logo-design">
+					<img src="img/works/item-7.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-7.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<h4>Labore et dolore magnam</h4>
+						<p>Photography</p>
+					</figcaption>
+				</figure>
+				
+				<figure class="mix work-item photography">
+					<img src="img/works/ambiente2.jpg" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/ambiente22.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<h4>Labore et dolore magnam</h4>
+						<p>Photography</p>
+					</figcaption>
+				</figure>							
+			</div>
+		</section>
+				 -->
+ 	
 		<!--
         Contactos
         ==================================== -->		
@@ -1058,7 +1042,247 @@
 			<!-- End Google map -->
 			
 		</section>
-		
+		<!-- ============================== MODAL AREA ====================== -->
+		<div class="modal fade" id="area_modal" tabindex="-1" role="dialog" aria-labelledby="regular_modal">
+ 			<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    			<div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="third">Equipamiento informatico</h5>
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -1em;">
+			<span aria-hidden="true">&times;</span>
+		</button>
+      </div>
+	  <div class="container">
+		  <div class="row">
+			<div class="col-md-6">
+				<div class="modal-body">
+					<h5 class="modal-title">Tareas de conexion realizadas</h5>
+							<img src="img/works/conexion.jpg" width="100%" alt="">
+							<h5 class="modal-title" style="padding-bottom: 1em; padding-top: 1em;">Equipos adquiridos</h5>
+							<p>Se efectuó la compra de equipos durante este primer semestre, destinados a los polos Tecnológicos</p>							   
+					<table class="table" style="background-color:#fafaf9;">
+						<thead>
+						  <tr>
+							<th scope="col">Equipo</th>
+							<th scope="col">Cantidad</th>								
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<th scope="row">PC's a Dic/2020</th>
+							<td>215</td>								
+						  </tr>
+						  <tr>
+							<th scope="row">PC's Adquiridas a Junio/2021</th>
+							<td>55</td>
+						  </tr>
+						  <tr>
+							<th scope="row">PC's Punto Digital</th>
+							<td>17</td>
+						  </tr>
+						  <tr>
+							<th scope="row">Impresoras</th>
+							<td>122</td>								
+						  </tr>
+						  <tr>
+							<th scope="row">Terminales</th>
+							<td>38</td>
+						  </tr>			  
+						</tbody>
+					</table>		
+				  </div>
+			</div>			
+		  </div>
+	  </div>
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-6">
+			  <div class="modal-body">
+				  <table class="table" style="background-color:#fafaf9;">
+					  <thead>
+						<tr>
+						  <th scope="col">Equipo</th>
+						  <th scope="col">Cantidad</th>								
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <th scope="row">Servidor de Terminales</th>
+						  <td>4</td>								
+						</tr>
+						<tr>
+						  <th scope="row">Servidor de Aplicaciones</th>
+						  <td>3</td>
+						</tr>
+						<tr>
+						  <th scope="row">Servidor IBM (AS/400) - Servicio Contratado</th>
+						  <td>1</td>
+						</tr>
+						<tr>
+						  <th scope="row">VPS 5 (Servidor Aplicaciones Web) Dedicado</th>
+						  <td>1</td>								
+						</tr>
+						<tr>
+						  <th scope="row">Servidor de Correo (compartido)</th>
+						  <td>1</td>
+						</tr>
+						<tr>
+						  <th scope="row">VPS 4 (Servidor de Correos) -Dedicado</th>
+						  <td>1</td>
+						</tr>
+						<tr>
+						   <th scope="row">Servidores adquiridos a Jun/2021</th>
+						   <td>1</td>
+						  </tr>			  
+					  </tbody>
+				  </table>		
+				</div>
+		  </div>			
+		</div>
+	</div>
+    			</div>
+  			</div>
+		</div>
+		<!-- ============================== MODAL DESARROLLO ====================== -->
+		<div class="modal fade" id="desarrollo_modal" tabindex="-1" role="dialog" aria-labelledby="regular_modal">
+			<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="third">Actividades de desarrollo infantil en la ciudad</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -1em;">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="container">
+					<div class="row">
+					  <div class="col-md-6">
+						  <div class="modal-body">
+							<h5 class="modal-title">Festejos por el mes de la niñez en los centros infantiles</h5>
+							<img src="img/works/desarrollo.png" width="100%" alt="">
+							<h5 class="modal-title" style="padding-top:2em;">Programa PROVIDA verano 2021</h5>
+							<img src="img/works/provida.jpg" width="100%" alt="">	
+						  </div>
+					  </div>
+					  			
+					</div>
+				</div>				
+			  </div>
+			</div>
+		</div>
+		<!-- ============================== MODAL SOCIAL ====================== -->
+		<div class="modal fade" id="social_modal" tabindex="-1" role="dialog" aria-labelledby="regular_modal">
+			<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="third">Actividades de desarrollo social</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -1em;">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="container">
+					<div class="row">
+					  <div class="col-md-6">
+						  <div class="modal-body">
+							<h5 class="modal-title">Acto de entrega de microcreditos</h5>
+							<img src="img/works/microcreditos.png" width="100%" alt="">
+							<h5 class="modal-title" style="padding-top:2em;">Feria de emprendedores</h5>
+							<img src="img/works/feria.jpg" width="100%" alt="">	
+						  </div>
+						  <h5 class="modal-title" style="padding-bottom: 1em;">Oficina de empleos</h5>
+						  <p>Se efectuó la inscripción de un total de 648 personas durante este primer semestre. Se creó  el Centro Municipal de Formación Laboral, iniciando sus actividades de capacitación en esa fecha.</p>
+						  <div class="table-responsive">
+							<table class="table table-bordered">
+							  <thead>
+								<tr>      
+								  <th></th>
+								  <th>Hombres</th>
+								  <th>Mujeres</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>Genero</td>
+								  <td>237</td>
+								  <td>411</td>
+								</tr>
+							  </tbody>
+							   <table class="table table-bordered">
+							  <thead>
+								<tr>      
+								  <th></th>
+								  <th>hasta 35</th>
+								  <th>mayores de 35</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>Edad</td>
+								  <td>477</td>
+								  <td>171</td>
+								</tr>
+							  </tbody>
+							  </table>
+							  <table class="table table-bordered">
+							  <thead>
+								<tr>      
+								  <th></th>
+								  <th>trans</th>
+								  <th>discapacidad</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>Cupo</td>
+								  <td>8</td>
+								  <td>17</td>
+								</tr>
+							  </tbody>
+							</table>
+							<table class="table table-bordered">
+							  <thead>
+								<tr>      
+								  <th></th>
+								  <th>Sec. Incompleto</th>
+								  <th>Sec. Completo</th>
+								  <th>Terc. o UnivCom</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>Nivel Educativo</td>
+								  <td>237</td>
+								  <td>411</td>
+								  <td>411</td>
+								</tr>
+							  </tbody>
+							</table>
+							<table class="table table-bordered">     
+							  <thead>
+								<tr>      
+								  <th></th>
+								  <th>Trabaja(changa)</th>
+								  <th>No trabaja(con experiencia)</th>
+								  <th>Sin experiencia</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>Situacion Laboral</td>
+								  <td>345</td>
+								  <td>290</td>
+								  <td>13</td>
+								</tr>
+							  </tbody>
+							</table>
+						  </div>
+					  </div>
+					  			
+					</div>
+				</div>				
+			  </div>
+			</div>
+		</div>
+
         <!--
         End Contact Us
         ==================================== -->
@@ -1224,5 +1448,6 @@
 				});
 			});
 		</script>
+		
     </body>
 </html>
