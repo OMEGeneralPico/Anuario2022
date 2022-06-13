@@ -727,3 +727,7 @@ label.error {
   right: 25px;
   z-index: 9;
 }
+/* css hover titulos*/
+.row h3:hover {
+  color: #1ea78d;
+}
